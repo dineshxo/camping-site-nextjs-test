@@ -9,7 +9,9 @@ const NavBar = () => {
     <div>
       <nav className=" padding-container max-container flexBetween relative z-30 py-5 flexBetween  ">
         <Link href={"./"}>
-          <Image src={"./hilink-logo.svg"} alt="logo" width={74} height={29} />
+          <h3 className="font-lg font-extrabold text-xl lg:text-2xl text-slate-500 ">
+            Camp<span className="text-orange-500">Gear</span>
+          </h3>
         </Link>
         <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
@@ -21,7 +23,6 @@ const NavBar = () => {
             </Link>
           ))}
         </ul>
-
         <div className="lg:flexCenter hidden">
           <Button
             type="button"
@@ -30,7 +31,6 @@ const NavBar = () => {
             variant="btn_dark_green"
           />
         </div>
-
         <Image
           src={"/menu.svg"}
           alt="menu"
