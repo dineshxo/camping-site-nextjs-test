@@ -27,11 +27,11 @@ const Guide = () => {
 
       <div className="flexCenter max-container relative w-full ">
         <Image
-          src={"/boat.png"}
+          src={"/train.png"}
           alt="boat"
           height={580}
           width={1440}
-          className="w-full object-cover object-center 2xl:rounded-5xl"
+          className="w-full object-cover object-center 2xl:rounded-5xl h-[580px]"
         />
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
@@ -46,7 +46,7 @@ const Guide = () => {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50"> 3 hours</p>
+                <p className="bold-16 text-green-50"> 5 hours</p>
               </div>
               <p className="bold-20 mt-2">Idalgashinna</p>
             </div>
