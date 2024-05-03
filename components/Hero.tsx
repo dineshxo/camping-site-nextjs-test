@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col  py-10 pb-32 md:gap-5  xl:flex-row">
+    <section className="max-container padding-container flex flex-col  py-10 pb-20  gap-5  xl:flex-row">
       <div className="hero-map" />
       {/* Left*/}
 
@@ -24,7 +24,7 @@ const Hero = () => {
           Rental. Flight + Hotel. Low Rates. No Booking Fees.
         </p>
 
-        <div className="my-11 flex flex-wrap gap-5">
+        <div className="my-5 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5)
               .fill(1)
