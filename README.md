@@ -17,8 +17,9 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
+![CampGear](https://github.com/dineshxo/camping-site-nextjs-test/assets/95670930/9db45ef7-98af-4cdf-b670-d779f0adb167)
 
-![CampGear](https://github.com/dineshxo/camping-site-nextjs-test/assets/95670930/f1d5a459-c93a-4c72-8931-2511de9d89e8)
+
 
 
 
