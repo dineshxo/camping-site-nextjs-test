@@ -60,7 +60,7 @@ const CampSite = ({
 const Camp = () => {
   return (
     <section className=" 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-10 xl:mb-20 lg:px-[50px]">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] roun">
         <CampSite
           backgroundImage="bg-bg-img-1"
           title="Idalgashinna"
