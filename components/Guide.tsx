@@ -4,7 +4,7 @@ import React from "react";
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className=" padding-container max-container w-full pb-24">
+      <div className=" padding-container max-container w-full pb-24 ">
         <Image src={"/camp.svg"} alt="camp" height={50} width={50} />
         <p className="bold-20  -mt-1 mb-3 text-orange-500 ">
           We are Here For You !
@@ -31,7 +31,7 @@ const Guide = () => {
           alt="boat"
           height={580}
           width={1440}
-          className="w-full object-cover object-center 2xl:rounded-5xl h-[580px]"
+          className="w-full object-cover object-center xl:rounded-5xl h-[580px]"
         />
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
